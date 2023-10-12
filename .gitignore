@@ -1,5 +1,8 @@
 node_modules
 
+# Ignore Challenge Solutions
+challenges/*.js
+
 # Locks
 pnpm-lock.yaml
 package-lock.json
