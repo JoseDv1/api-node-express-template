@@ -4,7 +4,7 @@ import Express from "express";
 import { usersRouter } from "./routes/usersRoutes.js";
 
 const app = Express();
-const port = 4000;
+const port = 3000;
 
 // App Routes
 app.use("/api/users", usersRouter);
@@ -14,5 +14,5 @@ app.use("/", (req, res) => {
 });
 
 app.listen(port, () => {
-	console.log(`Server running on port 4000! 🚀`);
+	console.log(`Server running on port 3000! 🚀`);
 });
