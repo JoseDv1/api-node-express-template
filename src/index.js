@@ -9,7 +9,7 @@ const port = 3000;
 // App Routes
 app.use("/api/users", usersRouter);
 app.use("/", (req, res) => {
-	res.send("Hpla mundo!");
+	res.send("Hola mundo!");
 });
 
 app.use("*", (req, res) => {

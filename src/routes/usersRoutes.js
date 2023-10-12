@@ -3,8 +3,8 @@ import { Router } from "express";
 export const usersRouter = Router();
 
 // GET /users
-usersRouter.get("/", () => {
-	return;
+usersRouter.get("/", (req, res) => {
+	res.send("Usuarios");
 });
 
 // GET /users/:id
